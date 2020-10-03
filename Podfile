@@ -6,7 +6,7 @@ target 'flixster' do
   use_frameworks!
 
   # Pods for flixster
-  pod "AlamofireImage"
+  pod "AlamofireImage", "3.4"
 
   target 'flixsterTests' do
     inherit! :search_paths
